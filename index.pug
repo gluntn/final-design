@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    link(rel="stylesheet", href="style/imports.css")
+    link(href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Montserrat:400,700&amp;subset=latin-ext" rel="stylesheet")
+    link(href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css" rel="stylesheet")
+    meta(name="theme-color" content="#62DAAA")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(name="apple-mobile-web-app-status-bar-style" content="black")
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title William S Østensen
+  body
+    .bg
+      svg(viewbox='0 0 100 100', xmlns='http://www.w3.org/2000/svg' preserveAspectRatio="none")
+        polygon(points='0 0, 100 0, 100 100, 0 50', id="second")
+        defs
+          linearGradient(id="bgGradient")
+            stop(offset="0%"   stop-color="#29B99D")
+            stop(offset="50%"  stop-color="#62DAAA")
+            stop(offset="100%" stop-color="#55FAB7")
+    .container
+      nav#nav-bar
+        #first-line
+          object(data="src/img/logo1111.svg" type="image/svg+xml")
+        #second-line
+          ul#link-list
+            li: a(href="#") about
+            li: a(href="#") work
+            li: a(href="#") blog
+            li: a(href="#") contact
+      #content(class="full mega-center")
+        img(src="./src/img/usr.jpg" class="half rounded image")
+        div(class="text-wrapper center normal-font")
+          h1(class="air") Hi, my name is #[.thicc William Østensen]! 
+          h2(class="thinn greyer") I like developing for the web. &#x1F578;
+        button(href="#" class="bgc primary btn air block") RÉSUMÉ
+script(src="js/index.js")

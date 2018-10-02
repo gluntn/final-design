@@ -1,0 +1,16 @@
+$primary: #62DAAA;
+$accent:  #b9298d;
+$danger:  #b92945;
+
+$black:   #223232;
+$white:   #fdfefd;
+
+$primary-gradient: linear-gradient(to-right, #29B99D, $primary, #AAFAC7);
+
+$family-sans-serif: 'Montserrat';
+$family-fixed:      'Source Code Pro';
+
+$radius: 0.5rem;
+$shadow: 2px 2px 2px rgba($black, 0.2);
+$click-shadow: 2px 2px 2px rgba($black, 0.4);
+$text-shadow: 1px 1.5px 1px rgba($black, 0.3);

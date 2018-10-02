@@ -1,0 +1,10 @@
+    <svg width="100" height="50">
+      <defs>
+        <filter id="first-gradient">
+          <linearGradient id="Gradient01"> <stop offset="0%" stop-color="#3bc4b2" /> <stop offset="100%" stop-color="#2f9d8e" /> </linearGradient>
+        </filter>
+        <filter id="second-gradient">
+          <linearGradient id="Gradient02"> <stop offset="0%" stop-color="#0aafaf" /> <stop offset="100%" stop-color="#077f7f" /> </linearGradient>
+        </filter>
+      </defs>
+    </svg>
