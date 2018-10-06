@@ -21,10 +21,11 @@ h3 { font-size:  1.5rem; }
 .fixed-font  { font-family: $family-fixed; font-weight: 400; }
 
 .bgc {
-  &.primary { color: $white; background: $primary; }
-  &.accent  { color: $white; background: $accent; }
-  &.white   { color: $black; background: $white; }
-  &.black   { color: $white; background: $black; }
+  &.primary   { color: $white; background: $primary; }
+  &.accent    { color: $white; background: $accent; }
+  &.white     { color: $black; background: $white; }
+  &.black     { color: $white; background: $black; }
+  &.inverted  { color: $primary; background: $black; }
 }
 
 .thinn { font-weight: 200; display: inline-block; }
@@ -55,13 +56,14 @@ h3 { font-size:  1.5rem; }
 
 .btn {
   color: $primary;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   font-size: 1.25rem;
   border-radius: $radius;
   box-shadow: $shadow;
   text-decoration: none;
   text-shadow: $text-shadow;
-  font-family: $family-fixed;
+  font-family: $family-sans-serif;
+  letter-spacing: 0.1rem;
   border: none;
   transition: 0.2s background, 0.2s box-shadow;
   &.primary:hover { background: darken( $primary, 2 ) }
